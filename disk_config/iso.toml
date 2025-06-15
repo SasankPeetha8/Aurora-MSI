@@ -1,7 +1,7 @@
 [customizations.installer.kickstart]
 contents = """
 %post
-bootc switch --mutate-in-place --transport registry quay.io/fedora/fedora-bootc-kinoite:41
+bootc switch --mutate-in-place --transport registry quay.io/fedora/fedora-kinoite
 %end
 """
 
